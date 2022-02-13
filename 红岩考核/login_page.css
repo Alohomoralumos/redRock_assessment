@@ -1,0 +1,254 @@
+* {
+    padding:0px;
+    margin:0px;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+#douban {
+    width:100%;
+    height:80px;
+    background-color: rgb(237, 244, 237);
+}
+#douban img {
+    width:150px;
+    padding-left:100px;
+    margin-top:20px;
+}
+.phone {
+    margin-top:80px;
+    margin-left:200px;
+    width:420px;
+    float:left;
+}
+.code {
+    position: absolute;
+    width:40px;
+    top:655px;
+    left:520px;
+}
+.login_ {
+    position: absolute;
+    top:180px;
+    right:200px;
+    border:1px solid rgb(218, 218, 218);
+    width:300px;
+    height:500px;
+    padding-left:40px;
+}
+#SMSlogin,
+#password_login {
+   height:40px;
+   width:135px;
+   font:17px/40px "Microsoft";
+   text-align: center;
+}
+#SMSlogin {
+    position: relative;
+    top:5px;
+    font-weight: 700;
+    color:black;
+    border-bottom: 3px solid black;
+}
+#password_login {
+    color:rgb(158, 160, 158);
+    position: relative;
+    top:-38px;
+    left:140px;
+    border-bottom: 1px solid rgb(162, 162, 162);
+}
+#SMSlogin_page>div:nth-of-type(1) {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    width:270px;
+    height:30px;
+    font:10px "Microsoft";
+    top:10px;
+    color:rgb(158, 160, 158);
+}
+a {
+    color:rgb(103, 188, 117);
+}
+.input {
+    position: relative;
+    width:260px;
+    height:30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border:1px solid rgb(228, 230, 229)
+}
+._86 {
+    width:40px;
+    height:20px;
+    border-right: 1px solid rgb(228, 230, 229);
+    float:left;
+    font:700 15px/20px "Microsoft";
+    text-align: center;
+}
+#SMSlogin_page>div:nth-of-type(2) {
+    top:60px;
+}
+#SMSlogin_page>div:nth-of-type(3) {
+    top:80px;
+}
+#phoneNumber,
+#identifyingCode {
+    border-style:none;
+}
+#phoneNumber {
+    float:right;
+    width:210px;
+    height:20px;
+}
+#login {
+    position: relative;
+    top:100px;
+    width:260px;
+    height:40px;
+    background-color: rgb(65, 172, 82);
+    border-style: none;
+    font:700 15px/40px "Microsoft";
+    color:white;
+}
+#not_identifyingCode,
+#password_login_page div:nth-of-type(3) {
+    position: relative;
+    left:180px;
+    top:120px;
+    color:rgb(65, 172, 82);
+    font:13px "Microsoft";
+}
+#identifyingCode {
+    width:180px;
+    height:20px;
+    margin-left: 10px;
+    float:left;
+}
+#resend {
+    float:right;
+    width:60px;
+    height:20px;
+    margin-right:10px;
+    color:rgb(65, 172, 82);
+    font:10px/20px "Microsoft";
+}
+.third_party_login>div:nth-of-type(1),
+.third_party_login>div:nth-of-type(3) {
+    float:left;
+    width:95px;
+    height:10px;
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+.third_party_login>div:nth-of-type(2) {
+    float:left;
+    color:rgb(174, 174, 174);
+    width:75px;
+    height:20px;
+    font:10px/20px "Microsoft";
+}
+#SMSlogin_page {
+    position: relative;
+    top:-30px;
+    height:300px;
+}
+#password_login_page {
+    display:none;
+    height:300px;
+}
+#mailbox,
+#password {
+    border-style: none;
+    margin-left:10px;
+    width:240px;
+}
+#password {
+    width:180px;
+}
+.find {
+    float:right;
+    width:60px;
+    height:20px;
+    font:10px/20px "Microsoft";
+    color:rgb(142, 142, 142);
+}
+#password_login_page>div:nth-of-type(1) {
+    position: relative;
+    top:60px;
+}
+#password_login_page>div:nth-of-type(2) {
+    position: relative;
+    top:80px;
+}
+.download {
+    position: absolute;
+    top:660px;
+    left:360px;
+    width:150px;
+    height:30px;
+    background-color: rgb(55, 51, 51);
+    color:white;
+    font:15px/30px "Microsoft";
+    border-style: none;
+    border-radius: 3px;
+}
+#QRcode,
+#Computer {
+    position: relative;
+    width:40px;
+    left: 240px;
+    top:10px;
+}
+#Computer {
+    display:none;
+}
+#QRcode_login_page {
+    position: relative;
+    display:none;
+    height:300px;
+}
+#QRcode_login_page>div:nth-of-type(1) {
+    border-bottom: 1px solid rgb(236, 236, 236);
+    position: relative;
+    top:10px;
+    height:40px;
+    width:270px;
+    font:700 18px/40px "Microsoft";
+}
+#QRcode_login_page>img:nth-of-type(1) {
+    width:180px;
+    position: relative;
+    top:50px;
+    left:50px;
+}
+#QRcode_login_page>img:nth-of-type(2) {
+    position: relative;
+    top: 110px;
+    left:-110px;
+    width:40px;
+}
+#QRcode_login_page>span:nth-of-type(1) {
+    position: relative;
+    float:left;
+    top:70px;
+    left:120px;
+    font-size: 13px;
+}
+#QRcode_login_page>span:nth-of-type(2) {
+    position: relative;
+    float:left;
+    top:90px;
+    left:45px;
+    font-size: 13px;
+}
+#QRcode_login_page>a {
+    position: relative;
+    float:left;
+    left:-45px;
+    top:190px;
+    font-size: 15px;
+}

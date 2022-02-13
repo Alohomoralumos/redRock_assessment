@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录页面</title>
+    <link rel="stylesheet" href="login_page.css">
+</head>
+<body>
+    <div id="douban">
+        <img src="douban.png">
+    </div>
+    <button class="download">下载豆瓣APP</button>
+    <img src=".....png" class="code">
+    <img src="phone.png" class="phone">
+    <div class="login_">
+        <img src="二维码.png" id="QRcode">
+        <img src="电脑.png" id="Computer">
+        <div id="SMSlogin">短信登陆/注册</div>
+        <div id="password_login">密码登录</div>
+        <div id="SMSlogin_page">
+            <div>请仔细阅读<a href="https://accounts.douban.com/passport/agreement">豆瓣使用协议、豆瓣个人信息保护政策</a></div>
+            <div class="input">
+                <div class="_86">+86</div>
+                <input type="text" id="phoneNumber" placeholder="手机号">
+            </div>
+            <div class="input">
+                <input type="text" id="identifyingCode" placeholder="验证码">
+                <div id="resend">获取验证码</div>
+            </div>
+            <input type="button" value="登录豆瓣" id="login">
+            <div id="not_identifyingCode">收不到验证码</div>
+        </div>
+        <div id="password_login_page">
+            <div class="input"><input placeholder="手机号/邮箱" id="mailbox"></div>
+            <div class="input">
+                <input placeholder="密码" id="password">
+                <div class="find">找回密码</div>
+            </div>
+            <input type="button" value="登录豆瓣" id="login">
+            <div>海外手机登录</div>
+        </div>
+        <div id="QRcode_login_page">
+            <div>二维码登录</div>
+            <img src="e.....png">
+            <img src="扫一扫.png">
+            <span>打开&nbsp;<a>豆瓣APP</a></span>
+            <span>扫一扫登录</span>
+            <a>短信验证登录</a>
+        </div>
+        <div class="third_party_login">
+            <div></div>
+            <div>第三方登录：</div>
+            <div></div>
+        </div>
+        <div class="wechat"></div>
+        <div class="weibo"></div>
+        <div class="qq"></div>
+    </div>
+    <script src="login_page.js"></script>
+</body>
+</html>
